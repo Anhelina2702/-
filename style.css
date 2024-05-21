@@ -1,0 +1,313 @@
+html{
+    font-size: 0.8vw
+}
+body{
+    width: 100%;
+    display: grid;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: "skellyman";
+    src: url("ofont.ru_Skellyman.ttf");
+}
+@font-face {
+  font-family: made;
+  src: url("helveticaneuecyr-ultralight3.ttf");
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.page1{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 15% 85%;
+}
+.page2{
+    width: 100%;
+    height: 422vh;
+    display: grid;
+    grid-template-rows: 15vh 7vh 100vh 100vh 100vh;
+}
+.header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header a{
+    width: 13.28%;
+    height: 50%;
+}
+.button{
+    width: 100;
+    height: 100%;
+    border-radius: 1.19rem;
+    background: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover{
+    cursor: pointer;
+    box-shadow: inset 0px 0px 2px 2px rgba(99, 94, 94, 0.856);
+}
+.button:active{
+    box-shadow: inset 0px 0px 2px 2px rgba(112, 105, 105, 0.877);
+}
+.textMenu{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.aboutMe{
+    display: grid;
+    grid-template-columns: 56.25% 43.75%;    
+    background-image: url("1678486972_bogatyr-club-p-fon-s-malenkimi-risunkami-foni-vkontakte-74.png");
+}
+.forpicture{
+    height: 100%; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.fortext{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.fortext div{
+    height: 75.4%;
+    width: 85.4%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.fortext p{
+    height: 80%;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 208%;
+    letter-spacing: 0.06em;
+    color: rgba(0, 0, );
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Frame2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgba(180, 176, 221, 0.39);
+    :root {
+        --font-family: "Inter", sans-serif;
+        --second-family: "Kapakana", sans-serif;
+      }
+}
+.forpicture div{
+    border: 4px solid #000;
+    width: 425px;
+    height: 800px;
+    backdrop-filter: blur(4px);
+    background: #fff;
+}
+.fortext div{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.forpicture2{
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fortext2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "skellyman";
+    font-weight: 400;
+    font-size: 1.88rem;
+    text-align: center;
+    color: #000;
+
+    
+} 
+.caption{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.88rem;
+    color: #000;
+}
+.Frame3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgba(221, 176, 214, 0.39);
+    :root {
+        --font-family: "Inter", sans-serif;
+        --second-family: "Kapakana", sans-serif;
+      }:root {
+        --font-family: "Inter", sans-serif;
+        --second-family: "Kapakana", sans-serif;
+      }  
+}
+.Frame4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgba(214, 176, 221, 0.39);
+    :root {
+        --font-family: "Inter", sans-serif;
+        --second-family: "Kapakana", sans-serif;
+      }
+}
+.Frame5{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgba(176, 221, 211, 0.39);
+    :root {
+        --font-family: "Inter", sans-serif;
+        --second-family: "Kapakana", sans-serif;
+      }
+}
+.page3{
+    width: 100%;
+    height: 155vh;
+    display: grid;
+    grid-template-rows: 10vh 5vh 155vh;
+     background-color: rgba(255, 235, 205, 0.678);
+}
+.fortext3{
+    font-family: var(--font-family);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.88rem;
+    color: #000;
+} 
+.fortext3 p{
+    width: 80%;
+    text-align: left;
+    margin-top: 2%;
+}
+.page4{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 15% 85%;
+     background-color: rgba(179, 223, 175, 0.288);
+}
+.Frame10{
+     display: grid;
+    width: 100%;
+}
+.fortext4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 250%;
+    color: #000;
+}
+.forpicture4{
+    width: 50%;
+    height: 28.31rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Frame11{
+    display: flex;
+}
+.fortext5{
+    width: 50%;
+    color: #fe0000;
+    font-size: xx-large;
+    margin-left: 1%;   
+}
+.fortext6{
+    width: 5%;
+    color: #32fc00;
+    font-size: 2rem; 
+}
+.fortext7{
+    font-family: var(--font-family);
+    font-size: xx-large;
+    color: #00ff0a;
+    margin-left: 1%;
+}
+.Forvideo{
+    width: 1246px;
+    margin-left: 15%;
+}
+.Frame13{
+    background-color: rgba(179, 223, 175, 0.288);
+}
+.forpicture5{
+    width: 25%;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-around;
+} 
+.mainHistory{
+    width: 100%;
+    display: flex;
+}
+.forpicture5 img{
+    display: flex;
+    width: 70%;
+}
+.forpicture6{
+    width: 25%;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-around;
+} 
+.forpicture6 img{
+    display: flex;
+    width: 70%;
+}
+.button2{
+    width: 70%;
+    height: auto;
+    border-radius: 1.19rem;
+    background: #d9d9d9;
+}
+.fortext8{
+    width: 35%;
+    font-size: 20pt;
+    color: #000;
+}
+.fortext8 span{
+    font-family: made;
+    font-weight: 900;
+}
+.Frame14{
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a{
+    width: 20%;
+}
